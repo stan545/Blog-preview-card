@@ -8,9 +8,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -34,18 +32,14 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: [Github](https://github.com/stan545/Blog-preview-card)
+- Live Site URL: [Vercel](https://blog-preview-card-wine-eight.vercel.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### What I learned
 
 ### Continued development
 - Reprogramming this using a different framework
@@ -56,7 +50,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [blog-preview_card](https://blog-preview-card-wine-eight.vercel.app/)
 - Frontend Mentor - [@stan545](https://www.frontendmentor.io/profile/stan545)
 - Twitter - [@stanhenry4](https://www.twitter.com/stanhenry4)
 
