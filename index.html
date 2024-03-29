@@ -4,25 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
   <title>Frontend Mentor | Blog preview card</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="/style.css">
   <style>
     .attribution {
-      margin: 20px;
-      background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,0.337), rgba(255,255,255,.6));
+      margin-block: 10px 0;
       padding: 10px;
-      border: 1px solid rgba(255, 255, 255, 0.337);
+      background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,0.337), rgba(255,255,255,.6));
+      border: 1px solid rgba(255, 255, 255, 0.337); 
+      backdrop-filter: blur(25px);
       border-radius: 4px;
       font-size: 11px;
       box-shadow: 0 0 5px -2px rgba(0,0,0, 0.337);
       font-family: Arial, Helvetica, sans-serif;
       text-align: center;
-      backdrop-filter: blur(25px);
+     
     }
 
    
@@ -43,29 +42,29 @@
     
   </style>
 </head>
-<body class="flexCol">
-  <main>
+<body >
+  <main role="main" class="flexCol">
     <div class="wrapper flexCol">
       <div class="imgContainer">
-        <img src="./assets/images/illustration-article.svg" alt="illustration-article"></div>
+        <img src="./assets/images/illustration-article.svg" alt="illustration-article">
+      </div>
       <div class="content">
         <div class="category">Learning</div>
         <p class="publishDate">Published 21 Dec 2023</p>
         <h1>HTML & CSS foundations</h1>
         <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
       </div>
-
+  
       <div class="author">
-        <img src="./assets/images/image-avatar.webp" alt="author Image" class="authorImage">
+        <img src="./assets/images/image-avatar.webp" alt="author avatar" class="authorImage">
         <p class="authorName">Greg Hooper</p>
       </div>
     </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.github.com/stan545">Henry</a>.
+    </div>
   </main>
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://www.github.com/stan545">Henry</a>.
-  </div>
 </body>
 
 </html>
